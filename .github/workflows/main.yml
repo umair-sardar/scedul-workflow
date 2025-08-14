@@ -1,0 +1,13 @@
+name: umair sardar
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+job:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: npm run
+        run: echo "my work"
